@@ -1,5 +1,6 @@
 function hello() {
   // Write your code here
+  // run test by: npm run test challenges/00helloworld.js 
   return "Hello world.";
 } 
 
