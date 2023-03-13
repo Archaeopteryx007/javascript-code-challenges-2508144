@@ -1,16 +1,21 @@
 function redistributeWealth(wealth) {
   // Write your code here
   var sum = 0;
-  var n = 0;
+  // var n = 0;
   wealth.forEach(element => {
-    sum =+ element;
-    n =+ 1;
+    sum += element;
+    // n += 1;
   });
-  var avg = sum / n;
-  var arr[];
-  for (var i = 0; i < n; i =+ 1){
-    arr
-  };
+  var sum2 = wealth.reduce(function(sum, num) {
+    return sum + num;
+  }, 0);
+  // var avg = sum / wealth.length;
+  var avg = sum2 / wealth.length;
+  var myarr = [];
+  for (var i = 0; i < wealth.length; i += 1){
+    myarr.push(avg);
+  }
+  return myarr;
 }
 
 
